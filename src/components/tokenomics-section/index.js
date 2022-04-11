@@ -20,10 +20,10 @@ const TokenomicsSection = () => {
                     <div className="col">
                         <img src={Portfolio} alt="DAG Portfolio" width="60%" />
                     </div>
-                    <div className="col position-relative">
-                        <img src={Investments} alt="Investments" width="70%" className="tokenomics-sec-image" />
+                    <div className="col">
+                        <img src={Investments} alt="Investments" width="60%" className="tokenomics-sec-image" />
                     </div>
-                    <div className="col position-relative">
+                    <div className="col">
                         <img src={Costs} alt="Other Costs" width="60%" className="tokenomics-sec-image" />
                     </div>
                 </div>
