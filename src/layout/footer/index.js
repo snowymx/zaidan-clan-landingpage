@@ -8,29 +8,25 @@ import { FaMediumM } from "react-icons/fa";
 
 const Footer = () => {
     return (
-        <div className="container-fluid bg-dark py-3">
-            <div className="row text-center">
-                <div className="col-4" style={{ position: 'relative' }}>
-                    <img src={Logo} alt="logo" className="logo-image-footer" style={{ position: 'absolute', right: 0 }} />
-                </div>
-                <div className="col-4" style={{ alignSelf: 'center' }}>
-                    <h2 className="text-warning">Zaidan Clan</h2>
-                </div>
-                <div className="col-4" style={{ position: 'relative' }}>
-                    <img src={Logo} alt="logo" className="logo-image-footer" style={{ position: 'absolute', left: 0 }} />
-                </div>
+        <div className="container-fluid bg-dark py-3 footer-layout-style">
+            <div className="text-center">
+                <a href="/" className="footer-lay-logo text-warning">
+                    <img src={Logo} alt="logo" className="logo-image-footer" />{' '}
+                    zaidan clan{' '}
+                    <img src={Logo} alt="logo" className="logo-image-footer" />
+                </a>
             </div>
             <div className="text-center">
-                <a href="http://twitter.com" className="text-white">
-                    <AiFillTwitterCircle style={{ width: '56px', height: '56px' }} />
+                <a href="https://twitter.com">
+                    <AiFillTwitterCircle className="svg-size-fir" />
                 </a>
 
-                <a href="http://discord.com" className="text-white">
-                    <BsDiscord className="mx-4" style={{ width: '52px', height: '52px', }} />
+                <a href="https://discord.com">
+                    <BsDiscord className="svg-size-sec mx-4" />
                 </a>
 
-                <a href="http://medium.com" className="text-white">
-                    <FaMediumM style={{ width: '54px', height: '54px' }} />
+                <a href="https://medium.com">
+                    <FaMediumM className="svg-size-thi" />
                 </a>
             </div>
         </div>

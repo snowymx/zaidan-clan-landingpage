@@ -1,4 +1,41 @@
 .roadmap-section-background {
     background: url(../../images/background-end.png) no-repeat center;
     background-size: cover;
+    font-family: 'NightinTokyo';
+
+    h2.roadmap-sec-title {
+        border-bottom: 3px solid #212529;
+        font-size: 5em;
+        display: inline-block;
+        padding-bottom: 0 !important;
+    }
+
+    ul.roadmap-sec-list {
+        display: inline-block;
+        background-color: #dbdf1079; 
+        font-size: 1.8em;
+        font-weight: bold;
+        padding-right: 1em;
+        padding-top: 1em;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+    h2.roadmap-sec-title {
+        font-size: 3em !important;
+    }
+
+    ul.roadmap-sec-list {
+        font-size: 1.3em !important;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    h2.roadmap-sec-title {
+        font-size: 3em !important;
+    }
+
+    ul.roadmap-sec-list {
+        font-size: 1em !important;
+    }
 }

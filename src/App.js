@@ -1,5 +1,5 @@
 import React, { Fragment, useRef } from "react";
-import { Navbar, Container, Nav } from "react-bootstrap";
+import { Navbar, Nav } from "react-bootstrap";
 import Logo from "./assets/images/logo.png";
 
 // ----- components sections import -----
@@ -10,7 +10,7 @@ import TokenomicsSection from "./components/tokenomics-section";
 
 // ----- layout sections import -----
 import Footer from "./layout/footer";
-import ScrollToTop from "./layout/scrolltotop";
+import Icon from "./layout/icon";
 
 const App = () => {
   const mintSection = useRef(null);
@@ -27,22 +27,20 @@ const App = () => {
 
   return (
     <Fragment>
-      <Navbar bg="dark" variant="dark" expand="lg" fixed="top">
-        <Container>
-          <Navbar.Brand href="/" className="text-uppercase text-warning" style={{ fontSize: '30px', fontWeight: 'bold' }}>
-            <img src={Logo} alt="logo" className="logo-image" />{' '}
-            Zaidan clan
-          </Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
-            <Nav className="text-uppercase" style={{ fontSize: '24px' }}>
-              <Nav.Link onClick={() => scrollDown(mintSection)}>Mint</Nav.Link>
-              <Nav.Link onClick={() => scrollDown(aboutSection)}>About</Nav.Link>
-              <Nav.Link onClick={() => scrollDown(tokenomicsSection)}>Tokenomics</Nav.Link>
-              <Nav.Link onClick={() => scrollDown(roadmapSection)}>Roadmap</Nav.Link>
-            </Nav>
-          </Navbar.Collapse>
-        </Container>
+      <Navbar bg="dark" variant="dark" expand="lg" fixed="top" className="px-3">
+        <Navbar.Brand href="/" className="text-uppercase text-warning">
+          <img src={Logo} alt="logo" className="logo-image" />{' '}
+          Zaidan clan
+        </Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
+          <Nav className="text-uppercase">
+            <Nav.Link onClick={() => scrollDown(mintSection)}>Mint</Nav.Link>
+            <Nav.Link onClick={() => scrollDown(aboutSection)}>About</Nav.Link>
+            <Nav.Link onClick={() => scrollDown(tokenomicsSection)}>Tokenomics</Nav.Link>
+            <Nav.Link onClick={() => scrollDown(roadmapSection)}>Roadmap</Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
       </Navbar>
 
       <div ref={mintSection} style={{ marginTop: '112px' }}>
@@ -62,7 +60,8 @@ const App = () => {
       </div>
 
       <Footer />
-      <ScrollToTop />
+
+      <Icon />
     </Fragment>
   );
 };

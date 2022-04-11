@@ -1,0 +1,36 @@
+div.container-fluid {
+    div {
+        h2.about-sec-title {
+            font-family: 'NightinTokyo';
+            border-bottom: 2px solid white;
+            font-size: 5em;
+            display: inline-block;
+            padding-bottom: 0 !important;
+        }
+    }
+
+    div.about-sec-content {
+        font-size: 1.3em;
+        font-weight: bold;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+    h2.about-sec-title {
+        font-size: 3em !important;
+    }
+
+    div.about-sec-content {
+        font-size: 1em !important;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    h2.about-sec-title {
+        font-size: 3em !important; 
+    }
+
+    div.about-sec-content {
+        font-size: 0.7em !important;
+    }
+}

@@ -1,21 +1,49 @@
 .first-section-background {
-    background-image: radial-gradient(yellow, rgb(255, 187, 0));
+    background-image: radial-gradient(yellow, rgb(255, 150, 0));
 
-    .devil-image {
-        width: 100%;
-        height: 100%;
+    .row {
+        .col-md-7 {
+            font-family: 'NightinTokyo';
+            align-self: center;
+
+            .first-title {
+                font-size: 4.5em;
+                margin-bottom: 3em;
+            }
+
+            .first-button {
+                font-size: 2.5em;
+                padding: 0 2em;
+            }
+        }
+
+        .col-md-5.first-image {
+            padding-right: 0; 
+
+            .devil-image {
+                width: 100%;
+                height: 100%;
+            }
+        }
     }
 }
 
-.first-title {
-    font-family: 'NightinTokyo';
-    font-size: 4em;
-    margin-bottom: 1em;
+@media screen and (min-width: 576px) and (max-width: 768px) {
+    .first-title {
+        font-size: 3em !important;
+    }
+
+    .first-button {
+        font-size: 1.8em !important;
+    }
 }
 
-.first-button {
-    font-family: 'NightinTokyo';
-    font-size: 2em;
-    padding-right: 2em;
-    padding-left: 2em;
+@media screen and (max-width: 576px) {
+    .first-title {
+        font-size: 2.5em !important;
+    }
+
+    .first-button {
+        font-size: 1.3em !important;
+    }
 }

@@ -1,3 +1,63 @@
 .tokenomics-section-background {
-    background-image: radial-gradient(yellow, rgb(255, 187, 0));
+    background-image: radial-gradient(yellow, rgb(255, 150, 0));
+
+    .py-5 {
+        div {
+            h2.tokenomics-sec-title {
+                font-family: 'NightinTokyo';
+                border-bottom: 3px solid #212529;
+                font-size: 5em;
+                display: inline-block;
+                padding-bottom: 0 !important;
+            }
+
+            .position-relative {
+                .tokenomics-sec-image {
+                    position: absolute;
+                    left: 50%;
+                    bottom: 0;
+                    transform: translate(-50%, 0);
+                }
+            }
+        }
+    }
+
+    .tokenomics-second-part {
+        h2.tokenomics-sec-list-title {
+            font-family: 'NightinTokyo';
+            font-size: 5em;
+        }
+        ul.tokenomics-sec-list {
+            font-size: 1.7em;
+            font-weight: bold;
+        }
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+    h2.tokenomics-sec-title {
+        font-size: 3em !important;
+    }
+
+    h2.tokenomics-sec-list-title {
+        font-size: 3em !important;
+    }
+
+    ul.tokenomics-sec-list {
+        font-size: 1.3em !important;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    h2.tokenomics-sec-title {
+        font-size: 3em !important;
+    }
+
+    h2.tokenomics-sec-list-title {
+        font-size: 1.7em !important;
+    }
+
+    ul.tokenomics-sec-list {
+        font-size: 1em !important;
+    }
 }

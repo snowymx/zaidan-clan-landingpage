@@ -1,4 +1,50 @@
-.logo-image-footer {
-    width: 96px;
-    height: 96px;
+.footer-layout-style {
+    .footer-lay-logo {
+        font-family: 'NightinTokyo';
+        font-size: 2em;
+        text-decoration: none;
+
+        .logo-image-footer {
+            width: 96px;
+            height: 96px;
+        }
+    }
+
+    .text-center {
+        a {
+            color: #ffffff;
+
+            .svg-size-fir {
+                width: 56px;
+                height: 56px;
+            }
+
+            .svg-size-sec {
+                width: 52px;
+                height: 52px;
+            }
+
+            .svg-size-thi {
+                width: 54px;
+                height: 54px;
+            }
+        }
+    }
 }
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+    .footer-lay-logo {
+        font-size: 1.7em !important;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .footer-lay-logo {
+        font-size: 1.2em !important;
+    }
+    .logo-image-footer {
+        width: 67px !important;
+        height: 67px !important;
+    }
+}
+

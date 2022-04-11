@@ -1,0 +1,27 @@
+.icon-style {
+    position: fixed;
+    top: 200px;
+    right: 0;
+    z-index: 1030;
+    padding-right: 2em;
+
+    a {
+        color: #ffffff;
+
+        .svg-size-fir {
+            width: 56px;
+            height: 56px;
+        }
+
+        .svg-size-sec {
+            width: 52px;
+            height: 52px;
+            margin: 20px 0;
+        }
+
+        .svg-size-thi {
+            width: 54px;
+            height: 54px;
+        }
+    }
+}
