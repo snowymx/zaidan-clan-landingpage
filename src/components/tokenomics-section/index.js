@@ -14,7 +14,7 @@ const TokenomicsSection = () => {
         <div className={ width <= 768 ? "container-fluid tokenomics-section-background p-2" : "container-fluid tokenomics-section-background p-5" }>
             <div className="py-5">
                 <div className="text-center py-4">
-                    <h2 className="text-uppercase pb-3 tokenomics-sec-title">Tokenomics</h2>
+                    <h2 className="text-uppercase pb-3 tokenomics-sec-title text-black">Tokenomics</h2>
                 </div>
                 <div className="row text-center">
                     <div className="col">
@@ -29,8 +29,8 @@ const TokenomicsSection = () => {
                 </div>
             </div>
             <div className={ width <= 768 ? "tokenomics-second-part p-2": "tokenomics-second-part p-5" }>
-                <h2 className="pb-3 tokenomics-sec-list-title">Holding a Zaidan Clan NFT gives you:</h2>
-                <ul className="tokenomics-sec-list">
+                <h2 className="pb-3 tokenomics-sec-list-title text-black">Holding a Zaidan Clan NFT gives you:</h2>
+                <ul className="tokenomics-sec-list text-black">
                     <li className="pb-3">Partial ownership to the DAG nodes purchased.</li>
                     <li className="pb-3">Eligibility for "Revenue Shared Model" for income generated from DAG nodes.</li>
                     <li className="pb-3">Voting power for decisions made regarding the project.</li>

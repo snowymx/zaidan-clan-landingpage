@@ -20,6 +20,10 @@ nav {
     }
 }
 
+.navbar {
+    background: black !important;
+}
+
 @media screen and (min-width: 576px) and (max-width: 768px) {
     .navbar-brand {
         font-size: 1.7em !important;

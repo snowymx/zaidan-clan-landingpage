@@ -8,7 +8,7 @@ import { FaMediumM } from "react-icons/fa";
 
 const Footer = () => {
     return (
-        <div className="container-fluid bg-dark py-3 footer-layout-style">
+        <div className="container-fluid bg-black py-3 footer-layout-style">
             <div className="text-center">
                 <a href="/" className="footer-lay-logo text-warning">
                     <img src={Logo} alt="logo" className="logo-image-footer" />{' '}

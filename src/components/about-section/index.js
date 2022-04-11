@@ -6,7 +6,7 @@ const AboutSection = () => {
     const { width } = useWindowDimensions();
 
     return (
-        <div className={ width <= 768 ? "container-fluid bg-dark text-white p-2" : "container-fluid bg-dark text-white p-5" }>
+        <div className={ width <= 768 ? "container-fluid bg-black text-white p-2" : "container-fluid bg-black text-white p-5" }>
             <div className="text-center pt-3">
                 <h2 className="text-uppercase pb-3 about-sec-title">About</h2>
             </div>
