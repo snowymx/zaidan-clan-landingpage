@@ -18,13 +18,13 @@ const TokenomicsSection = () => {
                 </div>
                 <div className="row text-center m-auto">
                     <div className="col-sm-12 col-md-4 mb-1">
-                        <img src={Portfolio} alt="DAG Portfolio" width="60%" />
+                        <img src={Portfolio} alt="DAG Portfolio" width="50%" />
                     </div>
                     <div className="col-sm-12 col-md-4 mb-1">
-                        <img src={Investments} alt="Investments" width="60%" className="tokenomics-sec-image" />
+                        <img src={Investments} alt="Investments" width="50%" className="tokenomics-sec-image" />
                     </div>
                     <div className="col-sm-12 col-md-4 mb-1">
-                        <img src={Costs} alt="Other Costs" width="60%" className="tokenomics-sec-image" />
+                        <img src={Costs} alt="Other Costs" width="50%" className="tokenomics-sec-image" />
                     </div>
                 </div>
             </div>
