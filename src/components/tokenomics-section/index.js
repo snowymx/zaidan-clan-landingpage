@@ -16,7 +16,7 @@ const TokenomicsSection = () => {
                 <div className="text-center py-4">
                     <h2 className="text-uppercase pb-3 tokenomics-sec-title text-black">Tokenomics</h2>
                 </div>
-                <div className="row text-center">
+                <div className="row text-center m-auto">
                     <div className="col-sm-12 col-md-4 mb-1">
                         <img src={Portfolio} alt="DAG Portfolio" width="60%" />
                     </div>
