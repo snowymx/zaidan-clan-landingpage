@@ -1,5 +1,5 @@
 import React, { Fragment, useRef } from "react";
-import { Navbar, Nav } from "react-bootstrap";
+import { Navbar, Nav, Container } from "react-bootstrap";
 import Logo from "./assets/images/logo.png";
 
 // ----- components sections import -----
@@ -27,21 +27,36 @@ const App = () => {
 
   return (
     <Fragment>
-      <Navbar bg="dark" variant="dark" expand="lg" fixed="top" className="px-3">
+      <Navbar collapseOnSelect bg="dark" variant="dark" expand="lg" fixed="top" className="px-3">
         <Navbar.Brand href="/" className="text-uppercase text-warning">
           <img src={Logo} alt="logo" className="logo-image" />{' '}
           Zaidan clan
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
           <Nav className="text-uppercase">
-            <Nav.Link onClick={() => scrollDown(mintSection)}>Mint</Nav.Link>
-            <Nav.Link onClick={() => scrollDown(aboutSection)}>About</Nav.Link>
-            <Nav.Link onClick={() => scrollDown(tokenomicsSection)}>Tokenomics</Nav.Link>
-            <Nav.Link onClick={() => scrollDown(roadmapSection)}>Roadmap</Nav.Link>
+            <Nav.Link onClick={() => scrollDown(mintSection)} href="#mintSection">Mint</Nav.Link>
+            <Nav.Link onClick={() => scrollDown(aboutSection)} href="#aboutSection">About</Nav.Link>
+            <Nav.Link onClick={() => scrollDown(tokenomicsSection)} href="#tokenomicsSection">Tokenomics</Nav.Link>
+            <Nav.Link onClick={() => scrollDown(roadmapSection)} href="#roadmapSection">Roadmap</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
+
+      {/* <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+        <Container>
+        <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav">
+          <Nav>
+            <Nav.Link onClick={() => scrollDown(mintSection)} href="#kkk">More deets</Nav.Link>
+            <Nav.Link onClick={() => scrollDown(aboutSection)} href="#ddd">
+              Dank memes
+            </Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+        </Container>
+      </Navbar> */}
 
       <div ref={mintSection} style={{ marginTop: '112px' }}>
         <FirstSection />

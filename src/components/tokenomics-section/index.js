@@ -11,7 +11,7 @@ const TokenomicsSection = () => {
     const { width } = useWindowDimensions();
 
     return (
-        <div className={ width <= 768 ? "container-fluid tokenomics-section-background p-2" : "container-fluid tokenomics-section-background p-5" }>
+        <div className={ width <= 768 ? "container-fluid tokenomics-section-background p-2" : "container-fluid tokenomics-section-background p-0" }>
             <div className="py-5">
                 <div className="text-center py-4">
                     <h2 className="text-uppercase pb-3 tokenomics-sec-title text-black">Tokenomics</h2>
