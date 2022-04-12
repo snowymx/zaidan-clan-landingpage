@@ -11,8 +11,10 @@ nav {
     }
 
     .navbar-collapse {
+        font-family: 'NightinTokyo';
         .navbar-nav {
             .nav-link {
+                font-family: 'NightinTokyo';
                 font-size: 1.7em;
                 color: #ffffff !important;
             }
@@ -21,6 +23,7 @@ nav {
 }
 
 .navbar {
+    font-family: 'NightinTokyo';
     background: black !important;
 }
 
