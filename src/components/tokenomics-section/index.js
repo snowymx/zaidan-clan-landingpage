@@ -1,8 +1,8 @@
 import React from "react";
 
-import Portfolio from "../../assets/images/tokenomics-50.png";
-import Investments from "../../assets/images/tokenomics-35.png";
-import Costs from "../../assets/images/tokenomics-15.png";
+import Portfolio from "../../assets/images/70.png";
+import Investments from "../../assets/images/15_pt.1.png";
+import Costs from "../../assets/images/15.png";
 
 import useWindowDimensions from "../../customHook/useWindowDimensions";
 
