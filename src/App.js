@@ -7,6 +7,7 @@ import AboutSection from "./components/about-section";
 import FirstSection from "./components/first-section";
 import RoadmapSection from "./components/roadmap-section";
 import TokenomicsSection from "./components/tokenomics-section";
+import HoldingSection from "./components/holding-section";
 
 // ----- layout sections import -----
 import Footer from "./layout/footer";
@@ -69,7 +70,9 @@ const App = () => {
       <div ref={tokenomicsSection}>
         <TokenomicsSection />
       </div>
-
+      
+      <HoldingSection />
+      
       <div ref={roadmapSection}>
         <RoadmapSection />
       </div>

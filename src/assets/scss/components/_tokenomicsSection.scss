@@ -2,6 +2,11 @@
     background-image: radial-gradient(yellow, rgb(255, 150, 0));
 
     .py-5 {
+        .tokenomic-content {
+            display: table;
+            margin: auto;
+        }
+
         div {
             h2.tokenomics-sec-title {
                 font-family: 'NightinTokyo';
@@ -9,6 +14,22 @@
                 font-size: 5em;
                 display: inline-block;
                 padding-bottom: 0 !important;
+                font-weight: bold;
+            }
+
+            h3 {
+                font-size: 2em;
+                font-family: 'NightinTokyo';
+                border-bottom: 2px solid #212529;
+                display: inline-block;
+                padding-bottom: 0 !important;
+                font-weight: bold;
+            }
+
+            ul {
+                font-family: Arial;
+                font-size: 1.3em;
+                font-weight: bold;
             }
 
             .position-relative {

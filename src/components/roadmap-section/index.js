@@ -16,8 +16,8 @@ const RoadmapSection = () => {
                     <li className="pb-3">Mint 5500 Gen 0 Samurai.</li>
                     <li className="pb-3">Buy DAG nodes.</li>
                     <li className="pb-3">Reinvest rewards and accumulate more DAG.</li>
-                    <li className="pb-3">Weekly giveaways.</li>
-                    <li className="pb-3">Wait for Constellation mainnet launch.</li>
+                    <li className="pb-3">Wait for Constellation Mainnet launch.</li>
+                    <li className="pb-3">Giveaways/Rewards.</li>
                 </ul>
             </div>
         </div>

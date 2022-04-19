@@ -2,6 +2,7 @@
     background: url(../../images/background-end.png) no-repeat center;
     background-size: cover;
     font-family: 'NightinTokyo';
+    text-align: center;
 
     h2.roadmap-sec-title {
         border-bottom: 3px solid #212529;
@@ -11,6 +12,8 @@
     }
 
     ul.roadmap-sec-list {
+        text-align: left;
+        font-family: Arial;
         display: inline-block;
         background-color: #dbdf1079; 
         font-size: 1.8em;

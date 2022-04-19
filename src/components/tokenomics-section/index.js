@@ -16,26 +16,34 @@ const TokenomicsSection = () => {
                 <div className="text-center py-4">
                     <h2 className="text-uppercase pb-3 tokenomics-sec-title text-black">Tokenomics</h2>
                 </div>
-                <div className="row text-center m-auto">
-                    <div className="col-sm-12 col-md-4 mb-1">
-                        <img src={Portfolio} alt="DAG Portfolio" width="50%" />
+                <div className="tokenomic-content">
+                    <div className="mb-1">
+                        <h3 className="text-black">70% Constellation Ecosystem</h3>
+                        <ul className="text-black">
+                            <li>75% DAG NODES</li>
+                            <li>25% Constellation Ecosystem (LTX, ADS, DODI, etc.)</li>
+                            <li>Distribution of 25% determined via community voting.</li>
+                        </ul>
                     </div>
-                    <div className="col-sm-12 col-md-4 mb-1">
-                        <img src={Investments} alt="Investments" width="50%" className="tokenomics-sec-image" />
+                    <div className="mb-1">
+                        <h3 className="text-black">15% Investments Outside of Constellation</h3>
+                        <ul className="text-black">
+                            <li>75% DAG NODES</li>
+                            <li>50% of the BCHY are compounded.</li>
+                            <li>35% allocated to community rewards/giveaways.</li>
+                            <li>15% team distribution</li>
+                        </ul>
                     </div>
-                    <div className="col-sm-12 col-md-4 mb-1">
-                        <img src={Costs} alt="Other Costs" width="50%" className="tokenomics-sec-image" />
+                    <div className="mb-1">
+                        <h3 className="text-black">15% Project Costs</h3>
+                        <ul className="text-black">
+                            <li>Team Distribution</li>
+                            <li>Marketing</li>
+                            <li>Development</li>
+                            <li>Partnerships</li>
+                        </ul>
                     </div>
                 </div>
-            </div>
-            <div className={ width <= 768 ? "tokenomics-second-part p-2": "tokenomics-second-part p-5" }>
-                <h2 className="pb-3 tokenomics-sec-list-title text-black">Holding a Zaidan Clan NFT gives you:</h2>
-                <ul className="tokenomics-sec-list text-black">
-                    <li className="pb-3">Partial ownership to the DAG nodes purchased.</li>
-                    <li className="pb-3">Eligibility for "Revenue Shared Model" for income generated from DAG nodes.</li>
-                    <li className="pb-3">Voting power for decisions made regarding the project.</li>
-                    <li className="pb-3">A lifetime ticket to weekly giveaways.</li>
-                </ul>
             </div>
         </div>
     );

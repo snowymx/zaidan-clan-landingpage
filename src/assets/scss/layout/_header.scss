@@ -11,12 +11,14 @@ nav {
     }
 
     .navbar-collapse {
-        font-family: 'NightinTokyo';
+        font-family: 'Arial';
+        margin-right: 2em;
         .navbar-nav {
             .nav-link {
-                font-family: 'NightinTokyo';
+                font-family: 'Arial';
                 font-size: 1.7em;
                 color: #ffffff !important;
+                margin: 1em;
             }
         }
     }

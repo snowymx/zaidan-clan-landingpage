@@ -8,9 +8,16 @@ div.container-fluid {
             display: inline-block;
             padding-bottom: 0 !important;
         }
+        h2.holding-title {
+            font-family: 'NightinTokyo';
+            font-size: 5em;
+            display: inline-block;
+            padding-bottom: 0 !important;
+        }
     }
 
     div.about-sec-content {
+        text-align: center;
         font-family: 'Arial';
         font-size: 1.3em;
         font-weight: bold;

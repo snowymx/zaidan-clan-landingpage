@@ -12,7 +12,7 @@ const Header = () => {
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
-                    <Nav className="text-uppercase">
+                    <Nav className="text-uppercase mr-2">
                         <Nav.Link href="#mint">Mint</Nav.Link>
                         <Nav.Link href="#about">About</Nav.Link>
                         <Nav.Link href="#tokenomics">Tokenomics</Nav.Link>
