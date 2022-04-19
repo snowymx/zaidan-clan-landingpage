@@ -28,7 +28,7 @@ const TokenomicsSection = () => {
                     <div className="mb-1">
                         <h3 className="text-black">15% Investments Outside of Constellation</h3>
                         <ul className="text-black">
-                            <li>75% DAG NODES</li>
+                            <li>Blue Chip High Yield Projects (BCHY); determined via voting.</li>
                             <li>50% of the BCHY are compounded.</li>
                             <li>35% allocated to community rewards/giveaways.</li>
                             <li>15% team distribution</li>
